@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4E70FB22E0FFC4002F5585 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F022E0FFC4002F5585 /* CGRect+Extension.swift */; };
+		3C4E70FC22E0FFC4002F5585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F222E0FFC4002F5585 /* ViewController.swift */; };
+		3C4E70FD22E0FFC4002F5585 /* CaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F422E0FFC4002F5585 /* CaptureProcessor.swift */; };
+		3C4E70FE22E0FFC4002F5585 /* CaptureProcessorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F522E0FFC4002F5585 /* CaptureProcessorDelegate.swift */; };
+		3C4E70FF22E0FFC4002F5585 /* FrameTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F722E0FFC4002F5585 /* FrameTranslator.swift */; };
+		3C4E710022E0FFC4002F5585 /* GenderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70F822E0FFC4002F5585 /* GenderColor.swift */; };
+		3C4E710122E0FFC4002F5585 /* GenderNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E70FA22E0FFC4002F5585 /* GenderNet.mlmodel */; };
 		3C74FA4A22DBBEA900CAC874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74FA4922DBBEA900CAC874 /* AppDelegate.swift */; };
-		3C74FA4C22DBBEA900CAC874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74FA4B22DBBEA900CAC874 /* ViewController.swift */; };
 		3C74FA4F22DBBEA900CAC874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74FA4D22DBBEA900CAC874 /* Main.storyboard */; };
 		3C74FA5122DBBEAA00CAC874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C74FA5022DBBEAA00CAC874 /* Assets.xcassets */; };
 		3C74FA5422DBBEAA00CAC874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74FA5222DBBEAA00CAC874 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C4E70F022E0FFC4002F5585 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		3C4E70F222E0FFC4002F5585 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4E70F422E0FFC4002F5585 /* CaptureProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureProcessor.swift; sourceTree = "<group>"; };
+		3C4E70F522E0FFC4002F5585 /* CaptureProcessorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureProcessorDelegate.swift; sourceTree = "<group>"; };
+		3C4E70F722E0FFC4002F5585 /* FrameTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameTranslator.swift; sourceTree = "<group>"; };
+		3C4E70F822E0FFC4002F5585 /* GenderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderColor.swift; sourceTree = "<group>"; };
+		3C4E70FA22E0FFC4002F5585 /* GenderNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderNet.mlmodel; sourceTree = "<group>"; };
 		3C74FA4622DBBEA900CAC874 /* FacesVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacesVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74FA4922DBBEA900CAC874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C74FA4B22DBBEA900CAC874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C74FA4E22DBBEA900CAC874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C74FA5022DBBEAA00CAC874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C74FA5322DBBEAA00CAC874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +47,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C4E70EF22E0FFC4002F5585 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E70F022E0FFC4002F5585 /* CGRect+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C4E70F122E0FFC4002F5585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E70F222E0FFC4002F5585 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C4E70F322E0FFC4002F5585 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E70F422E0FFC4002F5585 /* CaptureProcessor.swift */,
+				3C4E70F522E0FFC4002F5585 /* CaptureProcessorDelegate.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		3C4E70F622E0FFC4002F5585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E70F722E0FFC4002F5585 /* FrameTranslator.swift */,
+				3C4E70F822E0FFC4002F5585 /* GenderColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C4E70F922E0FFC4002F5585 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E70FA22E0FFC4002F5585 /* GenderNet.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3C74FA3D22DBBEA900CAC874 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +108,12 @@
 		3C74FA4822DBBEA900CAC874 /* FacesVision */ = {
 			isa = PBXGroup;
 			children = (
+				3C4E70F322E0FFC4002F5585 /* Capture */,
+				3C4E70F122E0FFC4002F5585 /* Controller */,
+				3C4E70EF22E0FFC4002F5585 /* Extensions */,
+				3C4E70F622E0FFC4002F5585 /* Model */,
+				3C4E70F922E0FFC4002F5585 /* Resources */,
 				3C74FA4922DBBEA900CAC874 /* AppDelegate.swift */,
-				3C74FA4B22DBBEA900CAC874 /* ViewController.swift */,
 				3C74FA4D22DBBEA900CAC874 /* Main.storyboard */,
 				3C74FA5022DBBEAA00CAC874 /* Assets.xcassets */,
 				3C74FA5222DBBEAA00CAC874 /* LaunchScreen.storyboard */,
@@ -135,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C74FA4C22DBBEA900CAC874 /* ViewController.swift in Sources */,
+				3C4E70FC22E0FFC4002F5585 /* ViewController.swift in Sources */,
+				3C4E70FE22E0FFC4002F5585 /* CaptureProcessorDelegate.swift in Sources */,
+				3C4E70FD22E0FFC4002F5585 /* CaptureProcessor.swift in Sources */,
 				3C74FA4A22DBBEA900CAC874 /* AppDelegate.swift in Sources */,
+				3C4E70FB22E0FFC4002F5585 /* CGRect+Extension.swift in Sources */,
+				3C4E710122E0FFC4002F5585 /* GenderNet.mlmodel in Sources */,
+				3C4E710022E0FFC4002F5585 /* GenderColor.swift in Sources */,
+				3C4E70FF22E0FFC4002F5585 /* FrameTranslator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TE23W7252;
 				INFOPLIST_FILE = FacesVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TE23W7252;
 				INFOPLIST_FILE = FacesVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
