@@ -65,10 +65,12 @@ class ViewController: UIViewController {
             switch (orientation) {
                 
             case .landscapeLeft:
+                resultsImageView.transform = CGAffineTransform.init(rotationAngle: 0)
                 updatePreviewLayer(layer: previewLayerConnection, orientation: .landscapeRight)
                 break
                 
             default:
+                resultsImageView.transform = CGAffineTransform.init(rotationAngle: CGFloat.pi)
                 updatePreviewLayer(layer: previewLayerConnection, orientation: .landscapeLeft)
                 break
             }
@@ -97,7 +99,7 @@ class ViewController: UIViewController {
     }
     
     @objc func didTapScreen() {
-        if processor.mode == .captured {
+        if processor.mode != .none {
             processor.mode = .none
             resetMode()
         } else {
